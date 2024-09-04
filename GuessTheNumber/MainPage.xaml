@@ -1,0 +1,45 @@
+﻿<ContentPage
+    x:Class="GuessTheNumber.MainPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    <VerticalStackLayout Padding="30" Spacing="10">
+        <!--  Titel des Spiels  -->
+        <Label
+            FontSize="24"
+            HorizontalOptions="Center"
+            Text="Mastermind Game" />
+
+        <!--  Eingabefeld für die 4-stellige Zahl  -->
+        <Entry
+            x:Name="GuessEntry"
+            Keyboard="Numeric"
+            Placeholder="Enter a 4-digit number" />
+
+        <!--  Button für das Absenden des Rates  -->
+        <Button
+            x:Name="SubmitButton"
+            Clicked="OnSubmitButtonClicked"
+            Text="Submit Guess" />
+
+        <!--  Button für ein neues Spiel, zu Beginn versteckt  -->
+        <Button
+            x:Name="NewGameButton"
+            Clicked="OnNewGameButtonClicked"
+            IsVisible="False"
+            Text="New Game" />
+
+        <!--  Label für die Anzeige des Ergebnisses  -->
+        <Label
+            x:Name="ResultLabel"
+            FontSize="18"
+            Text=""
+            TextColor="Black" />
+
+        <!--  Label zur Anzeige der verbleibenden Versuche  -->
+        <Label
+            x:Name="AttemptsLabel"
+            FontSize="18"
+            Text="Remaining Attempts: 10"
+            TextColor="Red" />
+    </VerticalStackLayout>
+</ContentPage>
