@@ -12,3 +12,4 @@ Ein Mastermind ähnliches Spiel
 	Wenn alle zahlen Falsch sind , gibt es 0 
 	
 	Es gibt zB 10 versuche 
+Dieses Projekt umfasst die Entwicklung einer plattformübergreifenden mobilen Anwendung mit .NET MAUI. Für das Projekt habe ich die entsprechenden SDKs und Komponenten für Android installiert und ein mehrschichtiges Spielentwicklungsmodell umgesetzt. Die Benutzeroberfläche der Anwendung wurde mit XAML entworfen, und es wurde C# verwendet, um eine dynamische und benutzerorientierte Erfahrung zu schaffen. Für die Spielmechanik und die Performance-Optimierung habe ich die richtigen Algorithmen eingesetzt. Zusätzlich habe ich umfassende Lösungen für die Verarbeitung von Spieldaten, die Validierung von Benutzereingaben und das Fehler-Handling nach den Prinzipien der Softwareentwicklung erstellt. Dieses Projekt demonstriert sowohl meine Fähigkeiten in der mobilen Entwicklung als auch meine Kentnisse in .NET.
